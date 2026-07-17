@@ -1,0 +1,17 @@
+{
+  "name": "queuectl",
+  "version": "1.0.0",
+  "description": "CLI-based background job queue system with worker processes, exponential-backoff retries, and a Dead Letter Queue.",
+  "main": "src/index.js",
+  "bin": {
+    "queuectl": "./bin/queuectl.js"
+  },
+  "scripts": {
+    "test": "bash test/run_tests.sh"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "license": "MIT",
+  "dependencies": {}
+}
